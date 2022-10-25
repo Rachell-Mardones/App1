@@ -10,9 +10,9 @@
         <Label Content="Tarea" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Brush Script MT"/>
         <Label Content="Crear Tarea" HorizontalAlignment="Center" Margin="0,119,0,0" VerticalAlignment="Top"/>
         <Label Content="Modificar Tarea" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="BotonCrearTarea" Content="Entrar" HorizontalAlignment="Left" Margin="155,163,0,0" VerticalAlignment="Top" FontSize="10"/>
+        <Button x:Name="BotonCrearTarea" Content="Entrar" HorizontalAlignment="Left" Margin="155,163,0,0" VerticalAlignment="Top" FontSize="10" Click="BotonCrearTarea_Click"/>
         <Label Content="Haga click en el botón para ingresar a la opción." HorizontalAlignment="Left" Margin="59,54,0,0" VerticalAlignment="Top" FontSize="10"/>
-        <Button x:Name="BotonModificarTarea" Content="Entrar" HorizontalAlignment="Center" Margin="0,262,0,0" VerticalAlignment="Top" FontSize="10"/>
+        <Button x:Name="BotonModificarTarea" Content="Entrar" HorizontalAlignment="Center" Margin="0,262,0,0" VerticalAlignment="Top" FontSize="10" Click="BotonModificarTarea_Click"/>
 
     </Grid>
 </Window>

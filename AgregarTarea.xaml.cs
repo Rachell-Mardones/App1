@@ -23,5 +23,13 @@ namespace App1
         {
             InitializeComponent();
         }
+
+        private void BotonCrear_Click(object sender, RoutedEventArgs e)
+        {
+            //Conexion con la base de datos
+
+            //Ingresar tarea a la base de datos
+            //string crear = "INSERT INTO Tarea (Nombre, Estado, Avance, ProyectoId) VALUES ('"+Nombre.Text+"', '"+Estado.Text+"','"+Avance.Text+"','"+ProyectoId+"')";
+        }
     }
 }

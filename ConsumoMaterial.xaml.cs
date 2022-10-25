@@ -23,5 +23,10 @@ namespace App1
         {
             InitializeComponent();
         }
+
+        private void BotonIngresar_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

@@ -23,5 +23,17 @@ namespace App1
         {
             InitializeComponent();
         }
+
+        private void BotonCrearTarea_Click(object sender, RoutedEventArgs e)
+        {
+            AgregarTarea agregarTarea = new AgregarTarea();
+            agregarTarea.Show();
+        }
+
+        private void BotonModificarTarea_Click(object sender, RoutedEventArgs e)
+        {
+            ModificarTarea modificarTarea = new ModificarTarea();
+            modificarTarea.Show();
+        }
     }
 }

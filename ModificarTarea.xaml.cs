@@ -23,5 +23,10 @@ namespace App1
         {
             InitializeComponent();
         }
+
+        private void BotonModificar_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

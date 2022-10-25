@@ -5,15 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:App1"
         mc:Ignorable="d"
-        Title="Proyecto" Height="450" Width="356">
+        Title="Proyecto" Height="450" Width="337">
     <Grid>
-        <Label Content="Proyecto" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontFamily="Brush Script MT" FontSize="24"/>
-        <TextBox x:Name="NombreProyecto" HorizontalAlignment="Left" Margin="83,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="215" AllowDrop="True"/>
-        <Label Content="Nombre :" HorizontalAlignment="Left" Margin="70,134,0,0" VerticalAlignment="Top"/>
+        <Label Content="Crear Proyecto" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontFamily="Brush Script MT" FontSize="24"/>
+        <TextBox x:Name="NombreProyecto" HorizontalAlignment="Left" Margin="83,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="193" AllowDrop="True"/>
+        <Label Content="Nombre :" HorizontalAlignment="Left" Margin="62,134,0,0" VerticalAlignment="Top"/>
         <Label Content="Ingresar los datos correspondientes para la &#xD;&#xA;creación de un proyecto." HorizontalAlignment="Center" Margin="0,66,0,0" VerticalAlignment="Top" Height="63" Width="240"/>
-        <Label Content="Estado :" HorizontalAlignment="Left" Margin="70,0,0,0" VerticalAlignment="Center"/>
-        <TextBox x:Name="EstadoProyecto" HorizontalAlignment="Left" Margin="83,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="215"/>
-        <Button x:Name="BotonIngresar" Content="Ingresar" HorizontalAlignment="Center" Margin="0,319,0,0" VerticalAlignment="Top"/>
+        <Label Content="Estado :" HorizontalAlignment="Left" Margin="62,0,0,0" VerticalAlignment="Center"/>
+        <TextBox x:Name="EstadoProyecto" HorizontalAlignment="Left" Margin="83,252,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="193"/>
+        <Button x:Name="BotonCrear" Content="Crear" HorizontalAlignment="Center" Margin="0,318,0,0" VerticalAlignment="Top" Click="BotonCrear_Click"/>
 
     </Grid>
 </Window>

@@ -27,22 +27,26 @@ namespace App1
 
         private void BotonConsumoMaterial_Click(object sender, RoutedEventArgs e)
         {
-
+            ConsumoMaterial consumoMaterial = new ConsumoMaterial();
+            consumoMaterial.Show();
         }
 
         private void BotonMaterial_Click(object sender, RoutedEventArgs e)
         {
-
+            Material material = new Material();
+            material.Show();
         }
 
         private void BotonTarea_Click(object sender, RoutedEventArgs e)
         {
-
+            Tarea tarea = new Tarea();
+            tarea.Show();
         }
 
         private void BotonProyecto_Click(object sender, RoutedEventArgs e)
         {
-
+            Proyecto proyecto = new Proyecto();
+            proyecto.Show();
         }
     }
 }

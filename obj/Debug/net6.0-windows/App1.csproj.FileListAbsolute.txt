@@ -27,3 +27,7 @@ C:\Users\rmard\source\repos\App1\App1\obj\Debug\net6.0-windows\ConsumoMaterial.b
 C:\Users\rmard\source\repos\App1\App1\obj\Debug\net6.0-windows\Material.baml
 C:\Users\rmard\source\repos\App1\App1\obj\Debug\net6.0-windows\Proyecto.baml
 C:\Users\rmard\source\repos\App1\App1\obj\Debug\net6.0-windows\Tarea.baml
+C:\Users\rmard\source\repos\App1\App1\obj\Debug\net6.0-windows\AgregarTarea.g.cs
+C:\Users\rmard\source\repos\App1\App1\obj\Debug\net6.0-windows\ModificarTarea.g.cs
+C:\Users\rmard\source\repos\App1\App1\obj\Debug\net6.0-windows\AgregarTarea.baml
+C:\Users\rmard\source\repos\App1\App1\obj\Debug\net6.0-windows\ModificarTarea.baml

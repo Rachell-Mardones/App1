@@ -7,10 +7,16 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="AgregarTarea.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ConsumoMaterial.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Material.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ModificarTarea.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Proyecto.xaml.cs">
@@ -21,6 +27,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="AgregarTarea.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="ConsumoMaterial.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -28,6 +37,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Material.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ModificarTarea.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Proyecto.xaml">
