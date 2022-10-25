@@ -25,7 +25,22 @@ namespace App1
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void BotonConsumoMaterial_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BotonMaterial_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BotonTarea_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BotonProyecto_Click(object sender, RoutedEventArgs e)
         {
 
         }

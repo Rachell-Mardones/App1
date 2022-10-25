@@ -5,17 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:App1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="234">
+        Title="MainWindow" Height="388" Width="234">
     <Grid>
         <Label Content="Sistema de Proyectos" HorizontalAlignment="Left" Margin="27,23,0,0" VerticalAlignment="Top" FontSize="18"/>
-        <Label Content="Proyecto" HorizontalAlignment="Center" Margin="0,62,0,0" VerticalAlignment="Top" FontSize="14"/>
-        <Label Content="Material" HorizontalAlignment="Center" Margin="0,152,0,0" VerticalAlignment="Top" FontSize="14"/>
-        <Label Content="Tarea" HorizontalAlignment="Center" Margin="0,247,0,0" VerticalAlignment="Top" FontSize="14"/>
-        <Label Content="Consumo Material" HorizontalAlignment="Center" Margin="0,327,0,0" VerticalAlignment="Top" FontSize="14"/>
-        <Button Content="Button" HorizontalAlignment="Center" Margin="0,106,0,0" VerticalAlignment="Top" FontSize="10" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="91,200,0,0" VerticalAlignment="Top" FontSize="10" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="91,289,0,0" VerticalAlignment="Top" FontSize="10" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="91,380,0,0" VerticalAlignment="Top" FontSize="10" Click="Button_Click"/>
+        <Label Content="Proyecto" HorizontalAlignment="Center" Margin="0,293,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Material" HorizontalAlignment="Center" Margin="0,131,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Tarea" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Consumo Material" HorizontalAlignment="Center" Margin="0,62,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Button x:Name="BotonConsumoMaterial" Content="Entrar" HorizontalAlignment="Center" Margin="0,96,0,0" VerticalAlignment="Top" FontSize="10" Click="BotonConsumoMaterial_Click"/>
+        <Button x:Name="BotonMaterial" Content="Entrar" HorizontalAlignment="Center" Margin="0,175,0,0" VerticalAlignment="Top" FontSize="10" Click="BotonMaterial_Click"/>
+        <Button x:Name="BotonTarea" Content="Entrar" HorizontalAlignment="Center" Margin="0,257,0,0" VerticalAlignment="Top" FontSize="10" Click="BotonTarea_Click"/>
+        <Button x:Name="BotonProyecto" Content="Entrar" HorizontalAlignment="Center" Margin="0,334,0,0" VerticalAlignment="Top" FontSize="10" Click="BotonProyecto_Click"/>
 
     </Grid>
 </Window>
