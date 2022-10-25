@@ -1,5 +1,5 @@
 ﻿App1
-1.0.0.0
+
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\rmard\source\repos\App1\App1\App.xaml
 5-1050519354
 
-9-952226622
+71826508834
 194618410957
 ConsumoMaterial.xaml;MainWindow.xaml;Material.xaml;Proyecto.xaml;Tarea.xaml;
 
-True
+False
 
